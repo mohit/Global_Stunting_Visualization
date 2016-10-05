@@ -4,6 +4,8 @@ Visualization of ["Stunting Disparities by Residence and Wealth Quintile"](http:
 Summary
 ------
 
+### It's hard to know what the visualization is about from the first paragraph. An explanation of the data set and the visualization as the first thing would be nice. 
+
 While normally first to grab a torch and pitchfork and take a run at Excel, my conclusion was UNICEF's single flat file contained more data for less work than both fancy, bespoke data explorers from the [World Health Organization](http://gamapserver.who.int/gho/interactive_charts/mdg1/atlas.html) and [International Food Policy Research Institute](https://public.tableau.com/profile/publish/GNR2015/2015GNR#!/publish-confirm). UNICEF's excel files were cleaner and easier to parse, and they already included country names and ISO country codes, which will also saved time.  
 
 Data was loaded, cleaned and reformatted using Pandas and Ggplot2 [here](https://github.com/Apeder/Global_Stunting_Visualization/tree/master/Data/Raw_Data_Cleaning)
@@ -23,12 +25,21 @@ Why stunting? Stunting is irrevocable damage malnutrition inflicts on children, 
 
 As previous visualizations don't include a time dimension, nor allow global comparisons, the primary design criteria was to show how the rate of stunting has changed globally over time. 
 
-Feedback
+Feedback  ##?
 -----
 
 
+Data Sets Used?
+-------
 
-Resources
+* seems like multiple data sets were used, a small description of them would be useful. 
+
+Random Examples: 
+
+* The parsing from source data was done as Jupyter notebook [here](./Data/Raw_Data_Cleaning/)
+* [Raw stunting data over the years](./Data/clean_analysis/world_stunting.csv)
+
+Resources ##
 ------
 Used Rich Donohue's code as a template 
 
